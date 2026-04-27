@@ -1,0 +1,16 @@
+# Exclude the massive Open Food Facts dataset
+*.csv.gz
+en.openfoodfacts.org.products.csv
+en.openfoodfacts.org.products.csv.gz
+
+# Keep the clean export CSVs (they are small)
+# market_gap_analysis_clean.csv  ← you can commit this
+# category_summary.csv           ← you can commit this
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
